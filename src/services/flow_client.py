@@ -723,6 +723,7 @@ class FlowClient:
                     create_data = {
                         "clientKey": client_key,
                         "task": {
+                            "softID":"42780",
                             "websiteURL": website_url,
                             "websiteKey": website_key,
                             "type": "RecaptchaV3TaskProxylessM1",
